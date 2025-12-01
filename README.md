@@ -37,7 +37,7 @@ Context Compression Methods
 │   └── Information-theoretic Selection
 │
 ├── Implicit Context Compression (Latent Level)
-│   ├── Soft Prompt / Gist Tokens
+│   ├── Soft Prompt (AutoCompressor)
 │   ├── Autoencoder-based (ICAE, CoCom)
 │   └── Latent Reasoning (Coconut)
 │
