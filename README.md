@@ -155,7 +155,8 @@ We welcome contributions! Please follow these steps:
 
 ## ⭐ Star History
 
-[![Star History Chart](https://api.star-history.com/svg?repos=broalantaps/Awesome-Context-Compression-LLMs&type=Date)](https://star-history.com/#broalantaps/Awesome-Context-Compression-LLMs&Date)
+[![Star History Chart](https://api.star-history.com/svg?repos=broalantaps/Awesome-Context-Compression-LLMs)](https://star-history.com/#broalantaps/Awesome-Context-Compression-LLMs)
+
 
 ---
 
