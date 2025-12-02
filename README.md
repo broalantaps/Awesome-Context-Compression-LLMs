@@ -102,6 +102,8 @@ Context Compression Methods
 
 | Paper Title | Venue/Date | Tags | Code | TL;DR |
 | :--- | :--- | :--- | :--- | :--- |
+| [ParallelComp: Parallel Long-Context Compressor for Length Extrapolation](https://arxiv.org/pdf/2502.14317) | ICML 2025 | `Sparse` | [GitHub](https://github.com/menik1126/ParallelComp) | This method divides long texts into smaller chunks and processes them in parallel while automatically removing redundant or irrelevant parts, greatly improving efficiency and performance. |
+| [UNComp: Can Matrix Entropy Uncover Sparsity? — A Compressor Design from an Uncertainty-Aware Perspective](https://arxiv.org/pdf/2410.03090) | EMNLP 2024 | `Sparse`, `KV Cache Eviction` | [GitHub](https://github.com/menik1126/UNComp) | An uncertainty-aware framework that leverages truncated matrix entropy to identify areas of low information content, thereby revealing sparsity patterns that can be used for adaptive compression. |
 | [Quest: Query-Aware Sparsity for Efficient Long-Context LLM Inference](https://arxiv.org/abs/2406.10774) | ICML 2024 | `Sparse`, `Query-Aware` | [GitHub](https://github.com/mit-han-lab/Quest) | Page-based KV management with query-aware selection |
 | [PyramidKV: Dynamic KV Cache Compression based on Pyramidal Information Funneling](https://arxiv.org/abs/2406.02069) | arXiv 2024.06 | `Eviction`, `Layer-wise` | [GitHub](https://github.com/Zefan-Cai/PyramidKV) | Different layers retain different amounts of KV pairs (pyramid structure) |
 | [MiniCache: KV Cache Compression in Depth Dimension for Large Language Models](https://arxiv.org/abs/2405.14366) | arXiv 2024.05 | `Eviction`, `Layer Merge` | - | Merges KV caches across similar layers to reduce memory |
