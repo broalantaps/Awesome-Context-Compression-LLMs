@@ -2,7 +2,7 @@
 
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](http://makeapullrequest.com)
+[![PRs Welcome]()
 
 > A curated collection of research papers focused on enhancing the efficiency of Large Language Models (LLMs) through context compression techniques. These methods aim to **reduce token usage**, **compress latent states**, and **optimize memory footprints (KV Cache)**.
 
