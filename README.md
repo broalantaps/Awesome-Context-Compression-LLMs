@@ -4,8 +4,6 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](http://makeapullrequest.com)
 
-**[English](README.md)** | **[中文](README_CN.md)**
-
 > A curated collection of research papers focused on enhancing the efficiency of Large Language Models (LLMs) through context compression techniques. These methods aim to **reduce token usage**, **compress latent states**, and **optimize memory footprints (KV Cache)**.
 
 ## 📑 Table of Contents
@@ -57,6 +55,7 @@ Context Compression Methods
 
 | Paper Title | Venue/Date | Tags | Code | TL;DR |
 | :--- | :--- | :--- | :--- | :--- |
+| [TokenSkip: Controllable Chain-of-Thought Compression in LLMs](https://arxiv.org/abs/2502.12067) | EMNLP 2025 Main | `Token Pruning`, `Distillation` | [GitHub](https://github.com/hemingkx/TokenSkip) | A simple yet effective approach that enables LLMs to selectively skip less important tokens, allowing for controllable CoT compression. |
 | [LLMLingua-2: Data Distillation for Efficient and Faithful Task-Agnostic Prompt Compression](https://arxiv.org/abs/2403.12968) | ACL 2024 | `Pruning`, `Distillation` | [GitHub](https://github.com/microsoft/LLMLingua) | Learns compression from GPT-4 annotations, 3x-6x faster than LLMLingua |
 | [LongLLMLingua: Accelerating and Enhancing LLMs in Long Context Scenarios via Prompt Compression](https://arxiv.org/abs/2310.06839) | ACL 2024 | `Pruning`, `RAG` | [GitHub](https://github.com/microsoft/LLMLingua) | Question-aware compression for RAG scenarios, reorders retrieved documents by relevance |
 | [Keyformer: KV Cache Reduction through Key Tokens Selection for Efficient Generative Inference](https://arxiv.org/abs/2403.09054) | MLSys 2024 | `Pruning` | [GitHub](https://github.com/d-matrix-ai/keyformer) | Identifies key tokens at each layer for selective retention |
@@ -78,7 +77,9 @@ Context Compression Methods
 
 | Paper Title | Venue/Date | Tags | Code | TL;DR |
 | :--- | :--- | :--- | :--- | :--- |
+| [REFRAG: Rethinking RAG based Decoding](https://arxiv.org/abs/2509.01092) | - | `Autoencoder`, `Memory Slots` | [Github](https://github.com/facebookresearch/refrag) | Reduces TTFT delay of RAG system by 30 times. |
 | [PCC: Pretraining Context Compressor for Large Language Models with Embedding-Based Memory](https://aclanthology.org/2025.acl-long.1394.pdf) | ACL 2025 Main | `Autoencoder`, `Memory Slots` | [Github](https://github.com/microsoft/AnthropomorphicIntelligence) | Explore the upper limit of implicit compression ratio and connect to downstream LLMs faster. |
+| [500xCompressor: Generalized Prompt Compression for Large Language Models](https://arxiv.org/abs/2408.03094) | ACL 2025 Main | `Autoencoder`, `Memory Slots` | [Github](https://github.com/ZongqianLi/500xCompressor) | Compresss a maximum of 500 natural language tokens into only 1 special token. |
 | [Coconut: Chain of Continuous Thought](https://arxiv.org/abs/2412.06769) | arXiv 2024.12 | `Latent Reasoning`, `CoT` | [Github](https://github.com/facebookresearch/coconut) | Performs reasoning in continuous latent space without outputting tokens |
 | [xRAG: Extreme Context Compression for Retrieval-Augmented Generation](https://arxiv.org/abs/2405.13792) | arXiv 2024.05 | `RAG`, `Compression` | - | Compresses retrieved documents into dense representations |
 | [PEARL: Prompting Large Language Models to Plan and Execute Actions Over Long Documents](https://arxiv.org/abs/2305.14564) | ACL 2024 | `Planning`, `Long Doc` | [GitHub](https://github.com/SimengSun/pearl) | Decomposes long document QA into planning and execution |
